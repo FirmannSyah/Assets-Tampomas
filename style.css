@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Public Sans&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -7,6 +8,20 @@
   font-size: 14px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+.primary{
+    color: #D19F4B;
+}
+
+.secondary{
+    color: #204D48;
+}
+
+.full-typeface{
+    font-family: 'Public Sans';
+}
 .container-fluid a:hover{
     color: #D19F4B;
 }
@@ -23,8 +38,28 @@
 }
 
 .btn-success{
+    border-color: #D19F4B !important;
     background-color: #D19F4B !important;
-    border-color: white;
 }
+
+.btn-success:hover{
+    border-color: #ad833a !important;
+    background-color: #ad833a !important;
+}
+
+.iconify:hover {
+    color: #e11d74;
+}
+
+.card{
+    box-shadow: 0px 2px 4px rgba(59, 69, 123, 0.2), 0px 4px 8px rgba(92, 107, 192, 0.2);
+    border-radius: 10px !important;
+    text-align: start;
+}
+
+.card-body p{
+    font-size: 11px ;
+}
+
 
 
